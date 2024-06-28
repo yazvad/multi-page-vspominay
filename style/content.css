@@ -1,0 +1,189 @@
+
+html {
+  background: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.all {
+  overflow: hidden;
+  background: black;
+  height: 100%;
+}
+
+/* Стили для контейнера с меню */
+.hamburger-text-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 0;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+}
+
+.hamburger-text {
+  font-family: 'TTFirsNeue-Regular';
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 10px 20px; 
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger-text a {
+  color: white; 
+  text-decoration: none; 
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-text a:hover {
+  color: lightgray; 
+}
+
+@media screen and (min-width: 768px) {
+  .leftside, .rightside {
+      height: 100vh;
+  }
+}
+
+.my_first_ssection {
+  display: flex;
+  height: calc(100% - 60px); 
+  padding-top: 10px; 
+  overflow: hidden;
+}
+
+.leftside, .rightside {
+  width: 50%;
+  overflow-y: scroll;
+  font-size: 6vw;
+  position: relative;
+}
+
+.leftside {
+  background: rgb(0, 0, 0);
+  height: 100%;
+}
+
+.rightside {
+  background: black;
+  color: aliceblue;
+  height: 100%;
+}
+
+img.img-fluid {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-family: 'TTFirsNeue-ExtraLight';
+  font-size: 8vw;
+  font-weight: 500;
+  color: white;
+  letter-spacing: -5px;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: 10; 
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img-fluidone {
+  width: 100%;
+  height: auto;
+  margin-top: 35vh;
+  position: relative; 
+  z-index: 1;
+}
+
+p {
+  font-family: 'TTFirsNeue-ExtraLight';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: white;
+  margin: 5vh 0 0 3vh; 
+  width: 90%;
+  max-width: 150vh; 
+  position: relative; 
+  z-index: 10;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.BBB {
+  position: relative;
+  width: 50%;
+  margin-top: 20vh;
+  margin-left: 10vw;
+}
+
+.texttwo {
+  width: 50%; 
+  max-width: 100vh; 
+  margin-top: 20vh;
+}
+
+.textthree {
+  width: 50%;  
+  max-width: 100vh; 
+}
+
+.archive {
+  position: relative;
+  margin-top: 10vh;
+  margin-left: 5vh;
+}
+
+.two {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.three {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+.four {
+  width: 90%;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+
+.five {
+  width: 90%;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}

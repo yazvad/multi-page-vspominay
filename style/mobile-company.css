@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'TTFirsNeue-Regular';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTFirsNeue-Medium';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Medium.ttf") format('truetype');
+    font-style: Medium;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TTFirsNeue-ExtraLight';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-ExtraLight.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.all {
+    background: black;
+    height: 100%;
+    overflow: auto; 
+}
+
+ 
+.hamburger-text-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+
+ 
+.hamburger-text {
+    font-family: 'TTFirsNeue-Regular';
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 10px 20px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger-text a {
+    color: white; 
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-text a:hover {
+    color: lightgray; 
+}
+
+h4 {
+    font-family: 'TTFirsNeue-ExtraLight';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+    margin: 5vh auto; 
+    width: 90%; 
+    max-width: 600px; 
+    position: relative; 
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobileBBB {
+    position: relative;
+    width: 50%;
+    align-items: center;
+    margin-left: 25vw;
+}
+
+.mobiletwo {
+    width: 100%;
+  }
+  
+  .mobilethree {
+    width: 100%;
+  }
+  
+  .mobilefour {
+    width: 90%;
+    margin-left: 2vh;
+  }
+  
+  .mobilefive {
+    width: 90%;
+    margin-left: 2vh;
+  }
+  h5 {
+    font-family: 'TTFirsNeue-ExtraLight';
+    font-size: 8vw;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -5px;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    position: relative;
+    line-height: 70px;
+  }

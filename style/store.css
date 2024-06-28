@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'TTFirsNeue-Regular';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TTFirsNeue-Medium';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-Medium.ttf") format('truetype');
+    font-style: Medium;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TTFirsNeue-ExtraLight';
+    src: url("../fonts/TTFirsNeue/TTFirsNeue-ExtraLight.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.all {
+    overflow: hidden;
+    background: black; 
+}
+
+.hamburger-text-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+  }
+  
+  .hamburger-text {
+    font-family: 'TTFirsNeue-Regular';
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 10px 20px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hamburger-text a {
+    color: white; 
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburger-text a:hover {
+    color: lightgray; 
+  }
+  
+
+.container, .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container1 {
+    margin-left: -2vw;
+    max-width: 130vh;
+}
+
+.seven, .eight, .nine, .ten, .eleven, .twelve {
+    width: 30vw;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.seven:hover, .eight:hover, .nine:hover, .ten:hover, .eleven:hover, .twelve:hover {
+    background-color: rgba(91, 91, 91, 0.2); 
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.245);
+}
+
+.twelve {
+    height: 20vw;
+    width: auto;
+}
+
+h3 {
+    font-family: 'TTFirsNeue-ExtraLight';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+    margin: 5vh 0 0 3vh; 
+    width: 90%; 
+    max-width: 150vh; 
+    position: relative; 
+    z-index: 10;
+}
+
+
+@media (max-width: 1024px) {
+    .seven, .eight, .nine, .ten, .eleven, .twelve {
+        width: 45vw;
+    }
+    .container h3 {
+        width: 45vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .seven, .eight, .nine, .ten, .eleven, .twelve {
+        width: 90vw;
+    }
+    .container h3 {
+        width: 90vw;
+    }
+}
